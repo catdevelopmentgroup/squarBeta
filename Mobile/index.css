@@ -1,0 +1,22 @@
+.mainWindowVeiw{
+    height:90%;
+    width:100%;
+    left:0px;
+    top:0px;
+    right:0px;
+    background:green;
+    position: absolute;
+    padding:none;
+}
+
+.menuBar{
+    height:10%;
+    width:100%;
+    background:blue;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    position: absolute;
+    border:9px solid black;   
+    border-radius:60px; 
+}

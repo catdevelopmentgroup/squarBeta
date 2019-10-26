@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+
+<html>
+<link rel="stylesheet" href="ep.css"/>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+
+
+<!-- Title--><title id="title"></title>
+
+<!-- Cookies Popup-->
+
+<video id="player" class="videoPlayerWindow" onClick="fullScreen()">
+  <source src="ep1.mp4" type="video/mp4"/>
+</video>
+
+<!-- Creating the Player Options (Play, Pause , etc)-->
+<div class="optionBar" id="optionBar">
+  <center>
+
+    <img src="icons/up.png" height="25px" width="25px" onClick="volUp()"/>
+    <img src="icons/down.png" height="25px" width="25px" onClick="volDown()"/>
+
+    <img src="icons/Pause.png" height="25px" width="25px" onClick="pause()"/>
+    <img src="icons/play.png" height="25px" width="25px" onClick="play()"/>
+    <br><img src="icons/downA.png" height="15px" width="15px"/>
+
+    <div style="height:25%;width:100%;"></div><br>
+
+
+    <!-- Desplaying the show and it's info-->
+    <a id="desplayTitle" class="title"></a><br>
+    <a id="desplayShow" class="title" style="font-weight:normal;"></a>
+    <br><br>
+    <button onClick="exit()" class="exitButton">Back</button><br><br><br><br> 
+  </center>
+</div>
+
+
+<script>
+// Settings
+
+let episodeName = "Talking with Tony Gibbons";
+let showName = "The Project";
+
+</script>
+
+<script type="text/javascript" src="main.js"></script>
+</html>

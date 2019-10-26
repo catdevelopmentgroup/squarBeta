@@ -1,0 +1,68 @@
+.showBar{
+    width:40%;
+    height:100%;
+    background:#e6e6e6;
+    position: absolute;
+    left:0px;
+    top:0px;
+  }
+  
+  .showHeader{
+    font-family:Montserrat;
+    font-size:60px;
+    color:black;
+  
+  }
+  
+  .div{width:100%;}
+  
+  .showAuthor{
+    font-family:Montserrat;
+    font-size:23px;
+  
+  }
+  
+  .epbar{
+    width:60%;
+    height:100%;
+    right:0px;
+    top:0px;
+    background:none;
+    position: absolute;
+  }
+  
+  .episode{
+    margin:10px;
+    width:97%;
+    height:50px;
+    border:2px solid black;
+    border-radius:15px;
+    background:white;
+  }
+  
+  .epName{
+    font-family:Montserrat;
+    float:left;
+    font-size:17px;
+  }
+  
+  
+  .player{
+    width:100%;
+    height:90%;
+    position: absolute;
+    bottom:0px;
+    left:0px;
+  }
+  
+  .playerBack{
+    height:30px;
+    width:30px;
+    border:solid 2px grey;
+    border-radius:19px;
+    background:none;
+    font-family:Montserrat;
+    color:grey;
+    font-size:17px;
+  }
+  
